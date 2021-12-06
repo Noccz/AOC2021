@@ -70,7 +70,7 @@ public class AOC6 extends AOC {
                 internalFishTimer.put(7, internalFishTimer.get(8));
                 internalFishTimer.put(8, temp);
             }
-            OUT.printf("AOC_6_1 - Number of Fish after %d days: %d\n", nrOfDays, internalFishTimer.values().stream().reduce(0L, Long::sum));
+            OUT.printf("AOC_6_2 - Number of Fish after %d days: %d\n", nrOfDays, internalFishTimer.values().stream().reduce(0L, Long::sum));
         } catch (IOException e) {
             e.printStackTrace();
         }
