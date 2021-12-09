@@ -18,5 +18,6 @@ public class AOC {
         AOC6.solveAOC_6_2();
         AOC7.solveAOC_7_1();
         AOC7.solveAOC_7_2();
+        AOC8.solveAOC_8_1();
     }
 }
